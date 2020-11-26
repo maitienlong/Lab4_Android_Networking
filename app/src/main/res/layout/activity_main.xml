@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#b2bec3"
+        android:gravity="center"
+        android:text="LAB5 - LONGMT - ANDROID NETWORKING"
+        android:textSize="18dp" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="#dfe6e9"
+        android:id="@+id/rc_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
